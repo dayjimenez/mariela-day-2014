@@ -175,8 +175,9 @@ a:hover {
 
 .spots p {
 	z-index: 10;
-	display: inline-block;
-	margin-top: 65%;
+	position: relative;
+	top: 88%;
+	line-height: 25px;
 }
 
 .spots.a {
@@ -184,7 +185,7 @@ a:hover {
 }
 
 .spots img {
-    position:absolute;
+    position: absolute;
     top:50%;
     min-height:100%;
     display:block;
