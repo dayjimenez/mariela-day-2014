@@ -55,12 +55,20 @@ body {
 
 h1 {
 	font-family: 'Avenir Next Demi', Avenir, sans serif;
-	font-size: 12px;
+	font-size: 50px;
 	font-weight: normal;
 	letter-spacing: 2px;
-	line-height: 1em;
+	line-height: 0.4em;
+	color: #ffffff;
+}
+
+h2 {
+	font-family: 'Avenir Next Demi', Avenir, sans serif;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #b2b2b2;
+	color: #ffffff;
 }
 
 p {
@@ -96,6 +104,7 @@ a:hover {
 	height: 90%;
 	background-color: #091156;
 	text-align: center;
+	z-index: 100;
 }
 
 .loader.animated.fadeOut {
@@ -114,10 +123,6 @@ a:hover {
 	-moz-animation-duration: 4s;
 	-o-animation-duration: 4s;
 	animation-duration: 4s;
-/*  	-webkit-animation-delay: .5s;
-  	-moz-animation-delay: .5s;
-  	-o-animation-delay: .5s;
-  	animation-delay: .5s;*/
 }
 
 .insignia img {
@@ -134,6 +139,71 @@ a:hover {
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+}
+
+
+.welcome {
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	width: 100%;
+	height: 90%;
+	background-color: #091156;
+	text-align: center;
+}
+
+.title {
+	position: relative;
+	top: 20%;
+}
+
+.summary {
+	width: 590px;
+	position: relative;
+	top: 30%;
+	margin: 0 auto;
+}
+
+.spots {
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 90%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.spots p {
+	z-index: 10;
+	display: inline-block;
+	margin-top: 65%;
+}
+
+.spots.a {
+	top: 90%;
+}
+
+.spots img {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    z-index: -10;
+}
+
+.spots.b {
+	top: 180%;
+}
+
+.spots.c {
+	top: 270%;
+}
+
+.spots.d {
+	top: 360%;
 }
 
 .introduction {
