@@ -1,0 +1,252 @@
+/*
+//			Large Screen focused Media Queries
+*/
+  
+  
+@media all and (max-width: 980px) {}
+
+  
+/*
+//			Medium Screen focused Media Queries
+*/
+  
+ 
+@media only screen and (max-width : 900px) {  
+
+  h2 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .project h2 {
+    margin-top: 12%;
+  }
+
+  .project h3 {
+    margin-top: 80%;
+  }
+
+}
+ 
+
+/*
+//			Small Screen focused Media Queries
+*/
+  
+@media only screen and (max-width : 600px) {  
+  
+  h1 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  h3 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+/*  h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  .project h2 {
+    margin-top: 15%;
+    opacity: .35;
+  }
+
+  .project h3 {
+    margin-top: 80%;
+  }*/
+
+  p {
+    font-size: 18px;
+    letter-spacing: 0.055em;
+    line-height: 30px;
+  }
+
+  p1 {
+    font-size: 16px;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+  }
+
+  p2 {
+    display: block;
+    font-size: 10px;
+    letter-spacing: .1em;
+    line-height: 1.75em;
+  }
+
+  .body {
+      width: 100%;
+      margin: 0px auto;
+  }
+
+  a {
+      border-bottom: 2px solid #EEE;
+  }
+
+  a:hover {
+      border-bottom: 2px solid #99FFA0;
+  }
+
+  .introduction {
+      width: 280px;
+      margin: 0px auto 80px auto;
+  }
+
+  .me {
+    width: 280px;
+    margin: 0px auto 45px auto;
+  }
+
+  .header {
+      width: 280px;
+  }
+
+  .topbar {
+      margin: 50px auto 80px;
+  }
+
+  .name {
+      font-size: 23px;
+      height: 50px;
+      border-bottom: 3px #000000 solid;
+      letter-spacing: .1px;
+  }
+
+  .name.interactive:hover {
+    border-bottom: 3px #363636 solid;
+  }
+
+  .nav {
+    height: 48px;
+  }
+
+  .nav.about {
+    margin-left: 18px;
+    border-bottom: 3px #ffffff solid;
+  }
+
+  .nav.about:hover {
+    border-bottom: 3px #b2b2b2 solid;
+  }
+
+  .nav.works {
+    margin-left: 15px;
+    border-bottom: 3px #ffffff solid;
+  }
+
+  .nav.works:hover {
+    border-bottom: 3px #b2b2b2 solid;
+  }
+
+  .nav.about.current {
+    border-bottom: 3px #000000 solid;
+  }
+
+  .tile {
+    width: 100%;
+  }
+
+  .project {
+    opacity: 1;
+  }
+
+  .tile.four {
+  margin: 0px;
+}
+
+.resume {
+  margin-bottom: 30px;
+}
+
+.resume p1 {
+    line-height: 1.5em;
+}
+
+.resume p2 {
+  padding-top: 5px;
+}
+
+.resume-desc {
+  margin-left: 135px;
+}
+
+.resume-desc a {
+  border-bottom: 1px solid #EEE;
+}
+
+.resume-desc a:hover {
+  border-bottom: 1px solid #99FFA0;
+}
+
+.resume-logo.wb img {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume-logo.rokkan img {
+  width: 73px;
+  margin-top: -7px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume-logo.harvard img {
+  width: 98px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume-logo.cornell img {
+  width: 80px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume.rokkan {
+  margin-bottom: 54px;
+}
+
+}
+
+
+/*
+//			Retina focused Media Queries
+*/
+  
+/*
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+  
+    INSERT CSS HERE
+    
+    }
+
+*/
+
