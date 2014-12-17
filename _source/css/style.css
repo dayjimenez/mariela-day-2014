@@ -29,22 +29,35 @@ Search:
 /* DEFAULT STYLING */
 
 @font-face {
-	font-family: 'Avenir Next Regular';
-	src: url('../fonts/avenir-next-regular.woff');
+    font-family: 'brown-bold';
+    src: url('../fonts/brown-bold.eot');
+    src: url('../fonts/brown-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brown-bold.woff2') format('woff2'),
+         url('../fonts/brown-bold.woff') format('woff'),
+         url('../fonts/brown-bold.ttf') format('truetype'),
+         url('../fonts/brown-bold.svg#brownbold') format('svg');
 }
 
 @font-face {
-	font-family: 'Avenir Next Demi';
-	src: url('../fonts/avenir-next-demi.woff');
+    font-family: 'brown-regular-italic';
+    src: url('../fonts/brown-regular-italic.eot');
+    src: url('../fonts/brown-regular-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brown-regular-italic.woff2') format('woff2'),
+         url('../fonts/brown-regular-italic.woff') format('woff'),
+         url('../fonts/brown-regular-italic.ttf') format('truetype'),
+         url('../fonts/brown-regular-italic.svg#brownregular_italic') format('svg');
 }
 
 @font-face {
-	font-family: 'Merriweather';
-	src: url('../fonts/merriweather-regular.ttf'),
-		 url('../fonts/merriweather-regular.woff'),
-		 url('../fonts/merriweather-regular.eot'),
-		 url('../fonts/merriweather-regular.svg');
+    font-family: 'calendas-plus-italic';
+    src: url('../fonts/calendas_plus_italic.eot');
+    src: url('../fonts/calendas_plus_italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/calendas_plus_italic.woff2') format('woff2'),
+         url('../fonts/calendas_plus_italic.woff') format('woff'),
+         url('../fonts/calendas_plus_italic.ttf') format('truetype'),
+         url('../fonts/calendas_plus_italic.svg#calendas_plusitalic') format('svg');
 }
+
 
 body {
 	font-size: 10px;
@@ -54,27 +67,36 @@ body {
 }
 
 h1 {
-	font-family: 'Avenir Next Demi', Avenir, sans serif;
+	font-family: 'brown-regular-italic', Avenir, sans serif;
 	font-size: 50px;
-	font-weight: normal;
+	font-weight: 300;
 	letter-spacing: 2px;
 	line-height: 0.4em;
 	color: #ffffff;
 }
 
 h2 {
-	font-family: 'Avenir Next Demi', Avenir, sans serif;
-	font-size: 14px;
+	font-family: 'brown-bold', Avenir, sans serif;
+	font-size: 13px;
 	font-weight: normal;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #ffffff;
 }
 
+h3 {
+	font-family: 'brown-bold', Avenir, sans serif;
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;	
+}
+
 p {
-	font-family: 'Avenir Next Regular', Avenir, sans serif;
-	font-size: 25px;
-	letter-spacing: 0.055em;
+	font-family: 'brown-regular-italic', Avenir, sans serif;
+	font-size: 30px;
+	letter-spacing: 0em;
 	line-height: 50px;
 	padding-top: 0px;
 }
@@ -87,10 +109,6 @@ a {
 
 a:hover {
 	border-bottom: 3px solid #99FFA0;
-/*	border-bottom: 3px solid #34ff67;
-	border-bottom: 3px solid #3D4A2D;
-	border-bottom: 3px solid #5757F4;
-	border-bottom: 3px solid #BFF7C3;*/
 }
 
 
@@ -158,10 +176,21 @@ a:hover {
 }
 
 .summary {
-	width: 590px;
+	width: 560px;
 	position: relative;
-	top: 30%;
+	top: 33%;
 	margin: 0 auto;
+}
+
+.summary p {
+	font-family: "calendas-plus-italic";
+	font-weight: normal;
+	-moz-font-feature-settings:"salt" 1; 
+	-moz-font-feature-settings:"salt=1"; 
+	-ms-font-feature-settings:"salt" 1; 
+	-o-font-feature-settings:"salt" 1; 
+	-webkit-font-feature-settings:"salt" 1;
+	font-feature-settings:"salt" 1;
 }
 
 .spots {
@@ -175,9 +204,20 @@ a:hover {
 
 .spots p {
 	z-index: 10;
-	position: relative;
-	top: 88%;
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	line-height: 35px;
+	margin: 0;
+}
+
+.spots h3 {
+	z-index: 10;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
 	line-height: 25px;
+	margin: 0;
 }
 
 .spots.a {
@@ -230,64 +270,6 @@ a:hover {
 
 .topbar {
 	margin: 100px auto 100px;
-}
-
-.name {
-	float: left;
-	font-size: 40px;
-	font-family: 'Merriweather', Georgia, serif;
-	text-align: center;
-	height: 60px;
-	border-bottom: 4px #000000 solid;
-	font-weight: 400;
-	letter-spacing: -1px;
-}
-
-.name.interactive:hover {
-	color: #363636;
-	border-bottom: 4px #363636 solid;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
-}
-
-.nav {
-	text-align: center;
-	height: 58px;
-	padding-top: 1px;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
-}
-
-.nav.about {
-	float: left;
-	margin-left: 42px;
-	border-bottom: 4px #ffffff solid;
-}
-
-.nav.about:hover {
-	border-bottom: 4px #b2b2b2 solid;
-}
-
-.nav.works {
-	float: left;
-	margin-left: 38px;
-	border-bottom: 4px #ffffff solid;
-}
-
-.nav.works:hover {
-	border-bottom: 4px #b2b2b2 solid;
-}
-
-.nav.about.current {
-	border-bottom: 4px #000000 solid;
-}
-
-.nav.current h1 {
-	color: #000000;
 }
 
 
