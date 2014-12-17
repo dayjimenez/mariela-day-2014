@@ -119,28 +119,28 @@ a:hover {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	background-color: #091156;
 	text-align: center;
 	z-index: 100;
 }
 
 .loader.animated.fadeOut {
-	-webkit-animation-duration: 4s;
-	-moz-animation-duration: 4s;
-	-o-animation-duration: 4s;
-	animation-duration: 4s;
-	-webkit-animation-delay: 4s;
-  	-moz-animation-delay: 4s;
-  	-o-animation-delay: 4s;
-  	animation-delay: 4s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-delay: 3s;
+  	-moz-animation-delay: 3s;
+  	-o-animation-delay: 3s;
+  	animation-delay: 3s;
 }
 
 .insignia.animated.fadeIn {
-	-webkit-animation-duration: 4s;
-	-moz-animation-duration: 4s;
-	-o-animation-duration: 4s;
-	animation-duration: 4s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
 }
 
 .insignia img {
@@ -173,6 +173,17 @@ a:hover {
 .title {
 	position: relative;
 	top: 20%;
+}
+
+.animated.fadeInUp {
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-delay: 3s;
+  	-moz-animation-delay: 3s;
+  	-o-animation-delay: 3s;
+  	animation-delay: 3s;
 }
 
 .summary {
