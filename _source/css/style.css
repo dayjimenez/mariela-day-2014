@@ -231,10 +231,6 @@ a:hover {
 	margin: 0;
 }
 
-.spots.a {
-	top: 90%;
-}
-
 .spots img {
     position: absolute;
     top:50%;
@@ -244,6 +240,10 @@ a:hover {
     -webkit-transform: translate(-50%, -50%);
     min-width:100%;
     z-index: -10;
+}
+
+.spots.a {
+	top: 90%;
 }
 
 .spots.b {
@@ -257,6 +257,53 @@ a:hover {
 .spots.d {
 	top: 360%;
 }
+
+.spots.e {
+	top: 450%;
+}
+
+.spots.f {
+	top: 540%;
+}
+
+.spots.g {
+	top: 630%;
+}
+
+.spots.h {
+	top: 720%;
+}
+
+.spots.i {
+	top: 810%;
+}
+
+.spots.j {
+	top: 900%;
+}
+
+.spots.k {
+	top: 990%;
+}
+
+.spots.l {
+	top: 1080%;
+}
+
+.spots.m {
+	top: 1170%;
+}
+
+.spots.n {
+	top: 1260%;
+}
+
+.spots.o {
+	top: 1350%;
+}
+
+
+
 
 .introduction {
 	width: 435px;
