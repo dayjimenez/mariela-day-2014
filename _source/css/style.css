@@ -159,7 +159,6 @@ a:hover {
 	transform: translate(-50%, -50%);
 }
 
-
 .welcome {
 	position: absolute;
 	display: inline-block;
@@ -168,6 +167,15 @@ a:hover {
 	height: 90%;
 	background-color: #091156;
 	text-align: center;
+}
+
+.logo {
+	position: relative;
+	top: 20px;
+}
+
+.logo img {
+	width: 40px;
 }
 
 .title {
@@ -202,6 +210,27 @@ a:hover {
 	-o-font-feature-settings:"salt" 1; 
 	-webkit-font-feature-settings:"salt" 1;
 	font-feature-settings:"salt" 1;
+}
+
+.hint {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+
+.hint h2 {
+	color: #182acc;
+}
+
+.hint.animated.fadeIn {
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-delay: 6s;
+  	-moz-animation-delay: 6s;
+  	-o-animation-delay: 6s;
+  	animation-delay: 6s;
 }
 
 .spots {
