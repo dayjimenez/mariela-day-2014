@@ -335,7 +335,15 @@ a:hover {
 	top: 1350%;
 }
 
+.happy {
+	position: relative;
+	top: 20%;
+}
 
+.wonderful {
+	position: relative;
+	top: 45%;
+}
 
 
 .introduction {
