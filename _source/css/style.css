@@ -337,14 +337,46 @@ a:hover {
 
 .happy {
 	position: relative;
-	top: 20%;
+	top: 25%;
+}
+
+.happy h1 {
+	font-size: 100px;
 }
 
 .wonderful {
 	position: relative;
-	top: 45%;
+	top: 35%;
 }
 
+.wonderful p {
+	font-family: "calendas-plus-italic";
+	font-weight: normal;
+	-moz-font-feature-settings:"salt" 1; 
+	-moz-font-feature-settings:"salt=1"; 
+	-ms-font-feature-settings:"salt" 1; 
+	-o-font-feature-settings:"salt" 1; 
+	-webkit-font-feature-settings:"salt" 1;
+	font-feature-settings:"salt" 1;
+}
+
+.signatures {
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+}
+
+.signatures img {
+	width: 240px;
+	height: 80px;
+	position: relative;
+	min-height: 80px;
+	display: inline-block;
+	left: 0;
+	-webkit-transform: none;
+	min-width: 240px;
+	margin: 0 20px;
+}
 
 .introduction {
 	width: 435px;
