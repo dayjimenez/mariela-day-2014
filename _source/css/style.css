@@ -7,18 +7,11 @@
 
 Search:
 
-	+Begin
-	+Default Styling
+	+ Default Styling
+	+ Loader
 	+ Header
-	+ Body
-		- Introduction
-		- Navigation
-		- Sections
-			i. Icons
-			ii. Content
+	+ Content Spots
 	+ Footer
-	
-	+End
 	
 	==========================================
 	
@@ -112,8 +105,8 @@ a:hover {
 }
 
 
-/* GLOBAL WIDTH */
-/* GLOBAL WIDTH */
+/* LOADER */
+/* LOADER */
 
 .loader {
 	position: absolute;
@@ -158,6 +151,9 @@ a:hover {
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
+/* HEADER */
+/* HEADER */
 
 .welcome {
 	position: absolute;
@@ -232,6 +228,9 @@ a:hover {
   	-o-animation-delay: 6s;
   	animation-delay: 6s;
 }
+
+/* CONTENT SPOTS */
+/* CONTENT SPOTS */
 
 .spots {
 	position: absolute;
@@ -344,6 +343,9 @@ a:hover {
 	font-size: 100px;
 }
 
+/* FOOTER */
+/* FOOTER */
+
 .wonderful {
 	position: relative;
 	top: 35%;
@@ -376,263 +378,4 @@ a:hover {
 	-webkit-transform: none;
 	min-width: 240px;
 	margin: 0 20px;
-}
-
-.introduction {
-	width: 435px;
-	margin: 0px auto 100px auto;
-	text-align: left;
-}
-
-.me {
-	width: 435px;
-	margin: 0px auto 65px auto;
-	text-align: left;
-}
-
-
-/* TOP BAR */
-/* TOP BAR */
-
-.header {
-	width: 435px;
-	margin: 0px auto;
-} 
-
-.topbar {
-	margin: 100px auto 100px;
-}
-
-
-/* INDEX - CONTENT */
-/* INDEX - CONTENT */
-
-/* CONTENT - PROJECTS */
-/* CONTENT - PROJECTS */
-
-.projects {
-	text-align: center;
-}
-
-.tile {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	width: 33.3333333%;
-}
-
-.tile:before {
-	content: "";
-	display: block;
-	padding-top: 100%;
-}
-
-.tile:hover .project {
-	opacity: 1;
-	-webkit-transition: all .7s ease-in-out;
-	-moz-transition: all .7s ease-in-out;
-	-o-transition: all .7s ease-in-out;
-	transition: all .7s ease-in-out;
-}
-
-.tile-image {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-.project {
-	display: block;
-	opacity: 0;
-	-webkit-transition: all .7s ease-in-out;
-	-moz-transition: all .7s ease-in-out;
-	-o-transition: all .7s ease-in-out;
-	transition: all .7s ease-in-out;
-}
-
-.project a {
-	color: inherit;
-}
-
-.project h2 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin-top: 15%;
-	opacity: .2;
-	z-index: 100;
-}
-
-.project-logo {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 200;
-}
-
-.project h3 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin-top: 80%;
-	padding: 0 5%;
-}
-
-
-/* CONTENT - PROJECT BY PROJECT */
-/* CONTENT - PROJECT BY PROJECT */
-
-.tile.one {
-	background-color: #4f91cd;
-	color: #004990;
-}
-
-.tile.two {
-	background-color: #000000;
-	color: #B0B0B0;
-}
-
-.tile.three {
-	background-color: #fe3f4b;
-	color: #000000;
-}
-
-.tile.four {
-	background-color: #fecb45;
-	color: #000000;
-	margin: 0px auto 120px 33.3%;
-}
-
-.project-logo.one img {
-	width: 40%;
-	margin-top: 44%;
-}
-
-.project-logo.two img {
-	width: 70%;
-	margin-top: 44%;
-}
-
-.project-logo.three img {
- 	width: 38%;
-	padding-top: 43%;
-}
-
-.project-logo.four img {
- 	width: 38%;
-	padding-top: 46%;
-}
-
-.tile-image.one img {
-	width: 70%;
-	margin-top: 15%;
-}
-
-.tile-image.two img {
-	width: 100%;
-	margin-top: 0;
-	opacity: .7;
-}
-
-.tile-image.three img {
-	width: 70%;
-	padding-top: 22%;
-}
-
-.tile-image.four img {
-	width: 100%;
-	margin-top: 0;
-}
-
-
-/* ABOUT - CONTENT */
-/* ABOUT - CONTENT */
-
-/* CONTENT - RESUME */
-/* CONTENT - RESUME */
-
-.resume {
-	margin-bottom: 35px;
-}
-
-.resume-desc {
-	margin-left: 170px;
-}
-
-.resume-desc a {
-	text-decoration: none;
-	border-bottom: 2px solid #EEE;
-}
-
-.resume-desc a:hover {
-	border-bottom: 2px solid #99FFA0;
-}
-
-.leaving {
-	position: absolute;
-	margin-top: 9px;
-	margin-left: 8px;
-	font-size: 16px;
-	color: #80ff88;
-	display: inline-block;
-	pointer-events: none;
-	opacity: 0;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
-
-.resume-logo:hover .leaving {
-	opacity: 1;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
-
-.resume-logo.wb img {
-	width: 125px;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	float: left;
-}
-
-.resume-logo.rokkan img {
-	width: 97px;
-	margin-top: -7px;
-	margin-bottom: 30px;
-	float: left;
-}
-
-.resume-logo.harvard img {
-	width: 123px;
-	margin-top: 1px;
-	margin-bottom: 30px;
-	float: left;
-}
-
-.resume-logo.cornell img {
-	width: 104px;
-	margin-top: 0px;
-	margin-bottom: 30px;
-	float: left;
-}
-
-.forward {
-	position: absolute;
-	height: 20px;
-	padding: 7px 0 0 5px;
 }
