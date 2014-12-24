@@ -57,14 +57,15 @@ body {
 	margin: 0px;
 	padding-bottom: 100px;
 	color: #ffffff;
+	background-color: #091156;
 }
 
 h1 {
 	font-family: 'brown-regular-italic', Avenir, sans serif;
-	font-size: 50px;
+	font-size: 100px;
 	font-weight: 300;
-	letter-spacing: 2px;
-	line-height: 0.4em;
+	letter-spacing: 4px;
+	line-height: 1.5em;
 	color: #ffffff;
 }
 
@@ -74,6 +75,7 @@ h2 {
 	font-weight: normal;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	line-height: 1.5em;
 	color: #ffffff;
 }
 
@@ -82,15 +84,16 @@ h3 {
 	font-size: 13px;
 	font-weight: normal;
 	letter-spacing: 2px;
+	line-height: 1.5em;
 	text-transform: uppercase;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 p {
 	font-family: 'brown-regular-italic', Avenir, sans serif;
 	font-size: 30px;
 	letter-spacing: 0em;
-	line-height: 50px;
+	line-height: 1.5em;
 	padding-top: 0px;
 }
 
@@ -179,6 +182,10 @@ a:hover {
 	top: 20%;
 }
 
+.title h2 {
+	margin-top: -2%;
+}
+
 .animated.fadeInUp {
 	-webkit-animation-duration: 3s;
 	-moz-animation-duration: 3s;
@@ -193,7 +200,7 @@ a:hover {
 .summary {
 	width: 560px;
 	position: relative;
-	top: 33%;
+	top: 30%;
 	margin: 0 auto;
 }
 
@@ -206,6 +213,7 @@ a:hover {
 	-o-font-feature-settings:"salt" 1; 
 	-webkit-font-feature-settings:"salt" 1;
 	font-feature-settings:"salt" 1;
+	line-height: 50px;
 }
 
 .hint {
@@ -248,29 +256,27 @@ a:hover {
 .spots p {
 	z-index: 10;
 	position: absolute;
-	bottom: 40px;
+	bottom: 45px;
 	width: 100%;
-	line-height: 35px;
 	margin: 0;
 }
 
 .spots h3 {
 	z-index: 10;
 	position: absolute;
-	bottom: 10px;
+	bottom: 18px;
 	width: 100%;
-	line-height: 25px;
 	margin: 0;
 }
 
 .spots img {
     position: absolute;
-    top:50%;
-    min-height:100%;
-    display:block;
-    left:50%;
+    top: 50%;
+    min-height: 100%;
+    display: block;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    min-width:100%;
+    min-width: 100%;
     z-index: -10;
 }
 
@@ -334,21 +340,17 @@ a:hover {
 	top: 1350%;
 }
 
+/* FOOTER */
+/* FOOTER */
+
 .happy {
 	position: relative;
 	top: 25%;
 }
 
-.happy h1 {
-	font-size: 100px;
-}
-
-/* FOOTER */
-/* FOOTER */
-
 .wonderful {
 	position: relative;
-	top: 35%;
+	top: 40%;
 }
 
 .wonderful p {

@@ -8,7 +8,10 @@ pre, code, tt {
 	font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
 }
 h1, h2, h3, h4, h5, h6, b, strong {
-/*	font-weight: bold;*/
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 em, i, dfn {
 	font-style: italic;
