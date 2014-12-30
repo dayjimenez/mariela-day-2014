@@ -98,13 +98,14 @@ p {
 }
 
 a {
-	color: #000000;
+	color: #FFFFFF;
 	text-decoration: none;
-	border-bottom: 3px solid #EEE;
+	border-bottom: 2px solid #FFFFFF;
 }
 
 a:hover {
-	border-bottom: 3px solid #99FFA0;
+	color: #F0F0F0;
+	border-bottom: 2px solid #F0F0F0;
 }
 
 
@@ -179,7 +180,7 @@ a:hover {
 
 .title {
 	position: relative;
-	top: 20%;
+	top: 17%;
 }
 
 .title h2 {
@@ -200,7 +201,7 @@ a:hover {
 .summary {
 	width: 560px;
 	position: relative;
-	top: 30%;
+	top: 26%;
 	margin: 0 auto;
 }
 
@@ -251,6 +252,13 @@ a:hover {
 	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 85%, rgba(0,0,0,0.3) 95%, rgba(0,0,0,0.5) 100%);
 	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 85%, rgba(0,0,0,0.3) 95%, rgba(0,0,0,0.5) 100%);
 	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 85%, rgba(0,0,0,0.3) 95%, rgba(0,0,0,0.5) 100%);
+}
+
+.spots.b {
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.3) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.3) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.3) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.3) 100%);
 }
 
 .spots p {
@@ -338,6 +346,10 @@ a:hover {
 
 .spots.o {
 	top: 1350%;
+}
+
+.spots.p {
+	top: 1440%;
 }
 
 /* FOOTER */
